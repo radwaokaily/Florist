@@ -1,0 +1,415 @@
+.bg-container{
+    width: 100%;
+    height: 80vh;
+    margin-top: 60px;
+    /* background-color: black; */
+}
+.bg-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.bg-container .text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    line-height: 50px;
+    font-family: "Protest Riot", sans-serif;
+    letter-spacing: 3px;
+    animation: header1 2s infinite;
+    opacity: 1;
+    transition: all 1s;
+}
+@keyframes header1 {
+    0%{
+    transition: all 1s;
+    opacity: 1;
+
+    }
+    25%{
+        opacity: .5;
+
+    }
+    50%{
+        opacity: 0;
+
+    }
+    75%{
+        opacity: .5;
+
+    }
+    100%{
+    transition: all 1s;
+    opacity: 1;
+    }
+    
+}
+.bg-container a{
+    background-color: #e83e8c;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    bottom:50px;
+    translate: 45px -250px;
+}
+.section2{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section2 .main{
+    width: 300px;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.section2 .main .text{
+line-height: 23px;
+letter-spacing: 2px;
+}
+.section2 .main .text h3{
+    color: #e83e8c;
+}
+.section2 .main .text p{
+    color: lightslategray;
+}
+.section2 .main img{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.freash{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.freash .card{
+    overflow: hidden;
+    width: 300px;
+    height: 60vh;
+    position: relative;
+    border-radius: 10px;
+}
+.freash .card .text{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    line-height: 30px;
+    color: #e83e8c;
+    border-radius: 10px;
+}
+.freash .card img{
+    width: 100%;
+    height: 100%;
+    transition: .5s all;
+}
+.freash .card .img-freash:hover{
+    scale: 1.1 1.1;
+    transition: .5s all;
+}
+.about{
+    width: 100%;
+    min-height:70vh ;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about .text-up{
+    width: 100%;
+    color: black;
+    display: flex; 
+    justify-content: space-around; 
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+.about .text-up .right{
+    margin: 0 200px ;
+    color: #444444;
+}
+.about .text-up .left{
+    margin: 0 100px ;
+}
+.about .text-up .left p{
+    color: #e83e8c;
+}
+.about .about-vid{
+    width: 70%;
+    min-height: 70vh; 
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+.about .about-vid .image{
+    width: 600px;
+    height: 100%;
+}
+.about .about-vid .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about .about-vid .contact-us{
+    width: 600px;
+    padding: 50px;
+    height: auto;
+    right: 30px;
+    top: 80px;
+    background-color: white;
+    position: absolute;  
+    box-shadow: -5px 5px 8px #44444418;
+    border-radius: 10px;
+}
+.about .about-vid .contact-us{
+    top: 200px;
+    right: 80px;
+    width: calc(100% - 200px);
+}
+.about .about-vid .contact-us .con-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.about .about-vid .contact-us .con-text :nth-child(1){
+    color: #e83e8c;
+    margin-bottom: 10px;
+}
+.about .about-vid .contact-us .con-text :nth-child(2){
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.about .about-vid .contact-us .con-text :nth-child(3){
+    color: #444444;
+    margin-bottom: 10px;
+}
+.about .about-vid .contact-us .con-text a{
+    background-color: #e83e8c;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.new{
+    margin-top: 30px;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.new .text{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.new .text h6{
+    color: #e83e8c;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.new .text h3{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.new .text .links{
+    margin-top: 20px;
+}
+.new .text .links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    padding: 10px 30px;
+    transition: all 1s;
+}
+.new .text .links a:hover{
+    background-color: #e83e8c;
+    color: white;
+    transition: all 1s;
+
+}
+.new .our-product{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 5px;
+}
+.new .our-product .product{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.new .our-product .product img{
+    width: 100%;
+    height: 50vh;
+}
+.new .our-product .product .product-details{
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+.new .our-product .product .product-details .price{
+    text-align: center;
+}
+.new .our-product .product .product-details .new-item{
+    color: #e83e8c;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.new  .btn-new{
+    color: black;
+    line-height: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    transition: all 1s;
+    font-size: 20px;
+    text-align: center;
+    /* display: block; */
+}
+.new  .btn-new:hover{
+    color: #e83e8c;
+    transition: all 1s;
+}
+.order{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    position: relative;
+}
+.order img{
+    width: 100%;
+    min-height: 70vh;
+    object-fit:cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.order .container{
+    width: 100%;
+    min-height: 70vh;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    justify-content: center;
+}
+.order .container .text{
+    color: white;
+    width: 500px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.order .container .text p{
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+
+}
+.order .container .text h4{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.order .container .text .btn-order, .btn-contact{
+    background-color: #e83e8c;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Protest Riot", sans-serif;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-right: 40px;
+    font-size: 12px;
+}
+.order .container .text .btn-contact{
+    background-color: #ffffff;
+    color: #e83e8c;
+}
+.g-section{
+    width: 90%;
+    height: 80vh;
+    margin:0 auto 40px auto;
+    /* margin-bottom: 20px; */
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap: 10px;
+    cursor: pointer;
+}
+.g-section .items{
+    border-radius: 10px;
+}.g-section .items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.g-section .items:nth-child(1){
+    grid-row: 1/3;
+}
+.g-section .items:nth-child(4){
+    grid-row: 1/3;
+    grid-column: 3/4;
+}

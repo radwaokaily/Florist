@@ -1,0 +1,25 @@
+.foot-container{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot-container div{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 20px;
+}
+.foot-container div h4{
+    margin-bottom: 10px;
+}
+.foot-container a{
+    color: #e83e8c;
+    transition: .5s ;
+}
+.foot-container a:hover{
+    color: black;
+    transition: .5s ;
+}
